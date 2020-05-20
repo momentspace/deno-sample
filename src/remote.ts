@@ -1,4 +1,4 @@
-async function remote(): void {
+async function remote() {
   await setTimeout(() => {
     console.log("world!");
   }, 1000);

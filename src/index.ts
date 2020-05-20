@@ -1,4 +1,3 @@
-await setTimeout(() => {
-console.log("world!");
-  }, 1000);
-console.log("hello, ");
+import remote-sample from "https://raw.githubusercontent.com/momentspace/deno-sample/master/src/remote.ts";
+
+remote-sample();

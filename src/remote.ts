@@ -1,4 +1,4 @@
-export async function remote() {
+export default async function remote() {
   await setTimeout(() => {
     console.log("world!");
   }, 1000);
